@@ -24,13 +24,13 @@ p2_deck = shuffled[26:]
 def display_card(card):
     rank, suit = card
     if rank == 11:
-        rank_display = 'J'
+        rank_display = "J"
     elif rank == 12:
-        rank_display = 'Q'
+        rank_display = "Q"
     elif rank == 13:
-        rank_display = 'K'
+        rank_display = "K"
     elif rank == 14:
-        rank_display = 'A'
+        rank_display = "A"
     else:
         rank_display = rank
     return f"{rank_display} of {suit}"
